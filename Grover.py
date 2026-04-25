@@ -9,7 +9,7 @@ qc.h(0)
 qc.h(1)
 
 # --- Step 2: Oracle (mark |11⟩ by flipping its phase) ---
-qc.cz(0, 1)   # flips phase ONLY when both are 1 😈
+qc.cz(0, 1)   # flips phase ONLY when both are 1
 
 # --- Step 3: Diffusion (interference amplifier) ---
 qc.h(0)
